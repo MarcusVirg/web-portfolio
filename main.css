@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'aileronsregular';
+  src: url('ailerons-typeface-webfont.woff2') format('woff2'),
+       url('ailerons-typeface-webfont.woff') format('woff'),
+       url('ailerons-typeface-webfont.otf') format('opentype'),
+       url('ailerons-typeface-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  /* background-color:#232E33; */
+  background-color:#495057;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+}
+
+.wrapper h1 {
+  font-size: 48px;
+  color: #0ca7d3;
+  font-family: 'aileronsregular';
+}
+
+.title:not(:last-child) {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+#container {
+  position: fixed;
+}
+
+.title {
+  text-align: center;
+  z-index: 10;
+}
+
+.section {
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.button {
+  margin-bottom: 15px;
+}
+
+.button.is-info {
+  background-color: #0ca7d3;
+}
