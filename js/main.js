@@ -6,7 +6,6 @@ modalCloseBtn.addEventListener("click", closeModal)
 
 function openModal() {
   modal.classList.add("is-active")
-  console.log(modal)
 }
 
 function closeModal() {
