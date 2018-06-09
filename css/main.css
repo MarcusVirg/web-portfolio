@@ -45,6 +45,10 @@ html, body {
   z-index: 10;
 }
 
+.subtitle {
+  margin-top: 10px !important;
+}
+
 .section {
   text-align: center;
 }
@@ -61,4 +65,8 @@ h2 {
 
 .button.is-info {
   background-color: #0ca7d3;
+}
+
+.card-footer-item a {
+  color: #0ca7d3;
 }
