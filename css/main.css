@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'aileronsregular';
-  src: url('ailerons-typeface-webfont.woff2') format('woff2'),
-       url('ailerons-typeface-webfont.woff') format('woff'),
-       url('ailerons-typeface-webfont.otf') format('opentype'),
-       url('ailerons-typeface-webfont.ttf') format('truetype');
+  src: url('../fonts/ailerons-typeface-webfont.woff2') format('woff2'),
+       url('../fonts/ailerons-typeface-webfont.woff') format('woff'),
+       url('../fonts/ailerons-typeface-webfont.otf') format('opentype'),
+       url('../fonts/ailerons-typeface-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
