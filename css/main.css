@@ -1,18 +1,10 @@
-@font-face {
-  font-family: 'aileronsregular';
-  src: url('../fonts/ailerons-typeface-webfont.woff2') format('woff2'),
-       url('../fonts/ailerons-typeface-webfont.woff') format('woff'),
-       url('../fonts/ailerons-typeface-webfont.otf') format('opentype'),
-       url('../fonts/ailerons-typeface-webfont.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-html, body {
+html,
+body {
   width: 100vw;
   height: 100vh;
   /* background-color:#232E33; */
-  background-color:#495057;
+  background-color: #495057;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper {
@@ -28,7 +20,7 @@ html, body {
 .wrapper h1 {
   font-size: 48px;
   color: #0ca7d3;
-  font-family: 'aileronsregular';
+  font-family: 'Exo 2', sans-serif;
 }
 
 .title:not(:last-child) {
@@ -64,9 +56,9 @@ h2 {
 }
 
 .button.is-info {
-  background-color: #0ca7d3;
+  background-color: #397f99;
 }
 
 .card-footer-item a {
-  color: #0ca7d3;
+  color: #397f99;
 }
